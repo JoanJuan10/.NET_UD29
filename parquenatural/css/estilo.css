@@ -12,6 +12,21 @@ h1 {
     text-align: center;
     margin-left: 170px;
 }
+#disclaimer {
+    margin-left: 300px;
+    color: grey;
+    font-size: 12px;
+    font-style: italic;
+}
+#disclaimer a {
+    text-decoration: underline;
+    color: grey;
+    
+}
+img {
+    margin-left: 30px;
+    width: 100%;
+}
 b {
     color: rgb(190, 146, 89);
 }
@@ -24,7 +39,10 @@ hr {
 }
 section {
     border: solid;
+    border-radius: 4px;
     border-width: 0.1px;
+    background: rgb(189,189,189);
+    background: linear-gradient(0deg, rgba(189,189,189,1) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 95%, rgba(196,196,196,1) 100%);
     border-color: grey;
     padding-left: 15px;
     padding-right: 15px;
@@ -36,7 +54,7 @@ h3 {
 }
 div {
     display: flex;
-    justify-content: space-around;
+
 }
 ul {
     margin-right: 50px;
@@ -44,12 +62,12 @@ ul {
 }
 li {
     margin-bottom: 5px;
-    background-color: rgb(183, 241, 96);
+    background: linear-gradient(to top, rgb(183, 241, 96), white);
     padding: 7px 20px 7px 20px;
     text-align: center;
 }
 li:hover {
-    background-color: burlywood;
+    background: linear-gradient(to top,burlywood, white);
     color: black;
 
 }
