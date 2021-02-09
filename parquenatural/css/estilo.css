@@ -1,10 +1,16 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 h1 {
     letter-spacing: 6px;
     color: green;
     text-align: center;
+    margin-left: 80px;
 }
 b {
     color: rgb(190, 146, 89);
@@ -27,4 +33,11 @@ section {
 h3 {
     color: rgb(190, 146, 89);
     font-weight: 800;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    margin-right: 50px;
 }
