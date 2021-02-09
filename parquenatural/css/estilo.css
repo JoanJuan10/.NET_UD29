@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    letter-spacing: 6px;
+    color: green;
+    text-align: center;
+    margin-left: 170px;
+}
+#disclaimer {
+    margin-left: 300px;
+    color: grey;
+    font-size: 12px;
+    font-style: italic;
+}
+#disclaimer a {
+    text-decoration: underline;
+    color: grey;
+    
+}
+img {
+    margin-left: 30px;
+    width: 100%;
+}
+b {
+    color: rgb(190, 146, 89);
+}
+h2 {
+    color: greenyellow;
+    margin-bottom: 0px;
+}
+hr {
+    margin-top: 0px;
+}
+section {
+    border: solid;
+    border-radius: 4px;
+    border-width: 0.1px;
+    background: rgb(189,189,189);
+    background: linear-gradient(0deg, rgba(189,189,189,1) 0%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 95%, rgba(196,196,196,1) 100%);
+    border-color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+h3 {
+    color: rgb(190, 146, 89);
+    font-weight: 800;
+}
+div {
+    display: flex;
+
+}
+ul {
+    margin-right: 50px;
+    list-style: none;
+}
+li {
+    margin-bottom: 5px;
+    background: linear-gradient(to top, rgb(183, 241, 96), white);
+    padding: 7px 20px 7px 20px;
+    text-align: center;
+}
+li:hover {
+    background: linear-gradient(to top,burlywood, white);
+    color: black;
+
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+}
