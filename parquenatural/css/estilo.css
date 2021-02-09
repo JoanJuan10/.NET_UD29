@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    letter-spacing: 6px;
+    color: green;
+    text-align: center;
+}
+b {
+    color: rgb(190, 146, 89);
+}
+h2 {
+    color: greenyellow;
+    margin-bottom: 0px;
+}
+hr {
+    margin-top: 0px;
+}
+section {
+    border: solid;
+    border-width: 0.1px;
+    border-color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+h3 {
+    color: rgb(190, 146, 89);
+    font-weight: 800;
+}
